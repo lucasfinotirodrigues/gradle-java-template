@@ -1,0 +1,8 @@
+@url = https://automatic-space-disco-r59q59w6g7v2xq4p-8080.app.github.dev/
+
+GET {{url}}
+###
+POST {{url}}
+Content-Type: text/plain
+
+Melancia

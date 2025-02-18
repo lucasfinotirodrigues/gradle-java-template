@@ -1,0 +1,24 @@
+@url = https://automatic-space-disco-r59q59w6g7v2xq4p-8080.app.github.dev
+GET {{url}}/tarefas
+###
+
+POST {{url}}/tarefas
+Content-Type: application/json
+
+{
+    "id": 2,
+    "descricao": "Testando a bagaceira"
+}
+
+###
+
+PUT {{url}}/tarefas/1
+Content-Type: application/json
+
+{
+    "descricao" : "Resgistro alterado com sucessinho aqui e ali!"
+}
+
+
+###
+DELETE {{url}}/tarefas/2
