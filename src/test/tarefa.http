@@ -2,11 +2,14 @@
 GET {{url}}/tarefas
 ###
 
+GET {{url}}/tarefas/44
+###
+
 POST {{url}}/tarefas
 Content-Type: application/json
 
 {
-    "id": 2,
+    "id": 1,
     "descricao": "Testando a bagaceira"
 }
 
@@ -18,7 +21,6 @@ Content-Type: application/json
 {
     "descricao" : "Resgistro alterado com sucessinho aqui e ali!"
 }
-
 
 ###
 DELETE {{url}}/tarefas/2
